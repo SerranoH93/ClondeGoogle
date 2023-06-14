@@ -148,3 +148,47 @@ main .main-buttons button:hover {
     color: #222;
     cursor: pointer;
 }
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0; /*Para que se fije en la parte de abajo de la pagina*/
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;    
+}
+
+footer .footer-top p {
+    margin-left: 20px;
+    color: #5f6368;
+}
+
+footer .footer-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer .footer-bottom ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-bottom .footer-left {
+    justify-content: left;
+}
+
+footer .footer-bottom .footer-right {
+    justify-content: right;
+}
+
+footer ul li a {
+    margin: 10px;
+    color: #5f6368;
+}
